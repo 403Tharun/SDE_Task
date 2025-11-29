@@ -1,0 +1,14 @@
+{
+  "samples": 87,
+  "priority_distribution": {
+    "medium": 37,
+    "high": 25,
+    "low": 25
+  },
+  "status_distribution": {
+    "todo": 40,
+    "progress": 30,
+    "done": 17
+  },
+  "version": "1.0.0"
+}

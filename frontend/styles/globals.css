@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-900;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.card {
+  @apply bg-white shadow-sm rounded-md p-4 border border-slate-100;
+}
+
+.kanban-board {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-4;
+}
+
+
+
