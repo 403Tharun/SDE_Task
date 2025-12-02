@@ -7,7 +7,7 @@ const useMemoryStore = !process.env.MONGODB_URI;
 
 // Log which store is being used
 if (useMemoryStore) {
-  console.log('');
+  console.log('⚠️  Using in-memory store (MONGODB_URI not set)');
 } else {
   console.log('✅ Using MongoDB database:', process.env.MONGODB_URI.split('@')[1]?.split('/')[1] || 'taskmanager');
 }
